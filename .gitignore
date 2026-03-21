@@ -1,0 +1,30 @@
+# Reference source code - do not commit
+reference-source-code/
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.o
+*.so
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
