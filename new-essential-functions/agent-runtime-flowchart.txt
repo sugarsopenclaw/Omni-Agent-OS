@@ -1,0 +1,45 @@
+Agent Runtime Loop - Draw.io Diagram
+
+Please create this diagram manually in draw.io:
+
+1. Start (Ellipse, green)
+   -> Check Signals (Diamond, yellow)
+
+2. Check Signals:
+   - Stop/Cancel? -> End (Ellipse, red) [left path]
+   - Continue? -> Before Hook [down path]
+
+3. Before Hook (Rectangle, blue):
+   - Cost guard
+   - Tool refresh
+   -> LLM Call
+
+4. LLM Call (Rectangle, blue):
+   - Build context
+   - Call API
+   -> Parse Response (Diamond, yellow)
+
+5. Parse Response:
+   - Text? -> Return Text to User (Rectangle, purple) -> End
+   - Tool Calls? -> Execute Tools (Rectangle, blue) [left path]
+
+6. Execute Tools (Rectangle, blue):
+   - Validate
+   - Approve
+   - Execute
+   -> After Hook
+
+7. After Hook (Rectangle, blue):
+   - Log usage
+   - Update memory
+   -> Check Done? (Diamond, yellow)
+
+8. Check Done?:
+   - Yes? -> End
+   - No? -> Loop Back (Rectangle, red) -> Check Signals
+
+Colors:
+- Start/End: Green/Red ellipse
+- Process: Blue rectangle
+- Decision: Yellow diamond
+- Loop: Red rectangle

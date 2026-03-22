@@ -33,20 +33,20 @@
 
 | 编号 | 技术点 | 状态 | 优先级 |
 |------|--------|------|--------|
-| [01](01-agent-runtime-decision.md) | Agent Runtime 主循环 | 📝 待创建 | P0 |
-| [02](02-context-assembly-decision.md) | Context Assembly Pipeline | ⏳ 待创建 | P0 |
-| [03](03-context-compression-decision.md) | 上下文压缩/摘要/保留区策略 | ⏳ 待创建 | P0 |
-| [04](04-tool-registry-decision.md) | Tool Registry 与结果后处理 | ⏳ 待创建 | P0 |
-| [05](05-skills-system-decision.md) | Skills 体系设计 | ⏳ 待创建 | P1 |
-| [06](06-model-provider-decision.md) | Model Provider 抽象与路由 | ⏳ 待创建 | P0 |
-| [07](07-memory-boundary-decision.md) | Session/Workflow/Memory 边界 | ⏳ 待创建 | P0 |
-| [08](08-rag-orchestration-decision.md) | RAG Orchestration 与引用机制 | ⏳ 待创建 | P1 |
-| [09](09-document-ingestion-decision.md) | Document Ingestion Pipeline | ⏳ 待创建 | P1 |
-| [10](10-channel-adapter-decision.md) | Channel Adapter (飞书/钉钉/QQ/Web) | ⏳ 待创建 | P1 |
-| [11](11-workflow-engine-decision.md) | Workflow/Task Engine | ⏳ 待创建 | P1 |
-| [12](12-observability-decision.md) | Observability/Tracing/Replay | ⏳ 待创建 | P2 |
-| [13](13-plugin-arch-decision.md) | Plugin Architecture | ⏳ 待创建 | P1 |
-| [14](14-storage-schema-decision.md) | Storage Schema 与核心对象模型 | ⏳ 待创建 | P0 |
+| [01](01-agent-runtime-decision.md) | Agent Runtime 主循环 | ✅ 已完成 | P0 |
+| [02](02-context-assembly-decision.md) | Context Assembly Pipeline | ✅ 已完成 | P0 |
+| [03](03-context-compression-decision.md) | 上下文压缩/摘要/保留区策略 | ✅ 已完成 | P0 |
+| [04](04-tool-registry-decision.md) | Tool Registry 与结果后处理 | ✅ 已完成 | P0 |
+| [05](05-skills-system-decision.md) | Skills 体系设计 | ✅ 已完成 | P1 |
+| [06](06-model-provider-decision.md) | Model Provider 抽象与路由 | ✅ 已完成 | P0 |
+| [07](07-memory-boundary-decision.md) | Session/Workflow/Memory 边界 | ✅ 已完成 | P0 |
+| [08](08-rag-orchestration-decision.md) | RAG Orchestration 与引用机制 | ✅ 已完成 | P1 |
+| [09](09-document-ingestion-decision.md) | Document Ingestion Pipeline | ✅ 已完成 | P1 |
+| [10](10-channel-adapter-decision.md) | Channel Adapter (飞书/钉钉/QQ/Web) | ✅ 已完成 | P1 |
+| [11](11-workflow-engine-decision.md) | Workflow/Task Engine | ✅ 已完成 | P1 |
+| [12](12-observability-decision.md) | Observability/Tracing/Replay | ✅ 已完成 | P2 |
+| [13](13-plugin-arch-decision.md) | Plugin Architecture | ✅ 已完成 | P1 |
+| [14](14-storage-schema-decision.md) | Storage Schema 与核心对象模型 | ✅ 已完成 | P0 |
 
 ---
 
@@ -105,9 +105,11 @@
 
 | 日期 | 更新内容 |
 |------|----------|
+| 2026-03-22 | 14 篇技术决策文档全部完成 ✅ |
 | 2026-03-21 | 创建文档框架，建立 15 项目源码库 |
 
 ---
 
-*最后更新：2026-03-21*
-*总计：14 篇技术分析文档*
+*最后更新：2026-03-22*
+*总计：14 篇技术分析文档（全部完成）*
+*总字数：~4,800 行*
